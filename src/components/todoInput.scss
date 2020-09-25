@@ -1,0 +1,26 @@
+
+.todo__input-container {
+  display: flex;
+  justify-content: center;
+  
+  & span {
+    margin-bottom: 8px;
+  }
+
+  .todo__input {
+    width: 60%;
+    font-size: 16px;
+    color: #393e3f;
+  }
+
+  .material-icons {
+    margin-left: 25px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .todo__checkbox, 
+  .material-icons {
+    align-self: flex-end;
+  }
+}

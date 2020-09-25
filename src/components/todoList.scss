@@ -1,0 +1,23 @@
+
+.todo__input-container {
+  display: flex;
+  justify-content: center;
+  
+  input[type=text] {
+    width: 60%;
+    font-size: 16px;
+    color: #393e3f;
+    border-bottom: 1px solid #677072;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+  }
+
+  .material-icons {
+    // align-self: flex-end;
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
